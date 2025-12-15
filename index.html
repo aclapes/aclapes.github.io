@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Albert Clapés Sintes — Curriculum Vitae</title>
+  <title>Albert Clapés — Curriculum Vitae</title>
   <style>
     body { font-family: Arial, Helvetica, sans-serif; line-height: 1.35; margin: 24px; max-width: 980px; }
     header { border-bottom: 1px solid #ccc; padding-bottom: 12px; margin-bottom: 16px; }
@@ -16,20 +16,35 @@
     li { margin-bottom: 8px; }
     .tag { font-size: 0.9em; color: #555; }
     .note { background: #fafafa; border: 1px solid #eee; padding: 10px; }
+    .pubtag{
+      display:inline-block;
+      padding:2px 6px;
+      margin-right:8px;
+      border-radius:3px;
+      font-size:0.85em;
+      font-weight:bold;
+      color:#fff;
+      vertical-align:baseline;
+    }
+    .pubtag.journal{ background:#2a7; }
+    .pubtag.conf{ background:#27a; }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Albert Clapés Sintes</h1>
+    <h1>Albert Clapés, PhD</h1>
     <div class="meta">
-      Professor Lector (Serra Húnter), Faculty of Mathematics and Computer Science, University of Barcelona (UB)
+      Serra Húnter Lecturer (Professor Lector Serra Húnter), Faculty of Mathematics and Computer Science, University of Barcelona (UB)
       <!-- Start date in CV: 01/02/2023. Include it only if you want it public. -->
     </div>
     <div class="small">
-      ORCID: <a href="https://orcid.org/0000-0002-4089-9060">0000-0002-4089-9060</a> ·
-      Scopus Author ID: 55329424200 ·
-      ResearcherID: NES-3617-2025
+      <strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-4089-9060">0000-0002-4089-9060</a> ·
+      <strong>Scopus Author ID:</strong> 55329424200 ·
+      <strong>ResearcherID:</strong> NES-3617-2025 ·
+      <strong>Google Scholar:</strong>
+      <a href="https://scholar.google.com/citations?user=n4BtpPsAAAAJ&hl=en">Profile</a>
+      (+1.8K citations, h-index 20, i10-index 23)
       <!-- OPTIONAL (add later if you want):
       · Email: <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
       · Google Scholar: <a href="YOUR_SCHOLAR_URL">Profile</a>
@@ -54,31 +69,34 @@
   <section id="publications">
     <h2>Publications (selected list with impact measures)</h2>
     <p class="small">
-      Notes: For journals, I report Journal Impact Factor (JIF/JCR) as stated in the CV; for conferences, I report GGS class where provided.
-      Links point to open-access or publisher pages, as listed in the CV.
+      For journals, I report Journal Impact Factor (JIF/JCR) as stated in <a href="https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/">WoS</a>; for conferences, I report <a href="https://scie.lcc.uma.es:8443/">GGS class</a>.
+      Links point to open-access or publisher pages.
     </p>
 
     <h3>2025</h3>
     <ul>
       <li>
-        Pujol-Perich D, Escalera S, Clapés A. <b>Sparse-Dense Side-Tuner for efficient Video Temporal Grounding (SDST)</b>.
+        <span style="color:#777;">2× CVPR 2026 submissions (under review).</span>
+      </li>
+      <li>
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Pujol-Perich D, Escalera S, Clapés A. <b>Sparse-Dense Side-Tuner for efficient Video Temporal Grounding (SDST)</b>.
         ICCV 2025.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Pujol-Perich_Sparse-Dense_Side-Tuner_for_efficient_Video_Temporal_Grounding_ICCV_2025_paper.html">Paper</a>
       </li>
       <li>
-        Xarles A, Escalera S, Moeslund TB, Clapés A. <b>Action Valuation in Sports: A Survey</b>. CVPR Workshops 2025.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Xarles A, Escalera S, Moeslund TB, Clapés A. <b>Action Valuation in Sports: A Survey</b>. CVPR Workshops 2025.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://ieeexplore.ieee.org/document/11148046">IEEE</a>
       </li>
       <li>
-        Dalal M, Xarles A, Cioppa A, Giancola S, Van Droogenbroeck M, Ghanem B, Clapés A, Escalera S, Moeslund TB.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Dalal M, Xarles A, Cioppa A, Giancola S, Van Droogenbroeck M, Ghanem B, Clapés A, Escalera S, Moeslund TB.
         <b>Action Anticipation from SoccerNet Football Video Broadcasts</b>. CVPR Workshops 2025.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://ieeexplore.ieee.org/document/11147467">IEEE</a>
       </li>
       <li>
-        Pujol-Perich D, Clapés A, Escalera S. <b>SADA: Semantic Adversarial Unsupervised Domain Adaptation for Temporal Action Localization</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Pujol-Perich D, Clapés A, Escalera S. <b>SADA: Semantic Adversarial Unsupervised Domain Adaptation for Temporal Action Localization</b>.
         WACV 2025.
         <span class="tag">GGS Class 2.</span>
         <a href="https://ieeexplore.ieee.org/document/10943847">IEEE</a>
@@ -88,13 +106,13 @@
     <h3>2024</h3>
     <ul>
       <li>
-        Xarles A, Escalera S, Moeslund TB, Clapés A. <b>T-DEED: Temporal-Discriminability Enhancer Encoder-Decoder for Precise Event Spotting in Sports Videos</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Xarles A, Escalera S, Moeslund TB, Clapés A. <b>T-DEED: Temporal-Discriminability Enhancer Encoder-Decoder for Precise Event Spotting in Sports Videos</b>.
         CVPR Workshops 2024.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://ieeexplore.ieee.org/document/10677971">IEEE</a>
       </li>
       <li>
-        Cioppa A, Giancola S, Somers V, …, Clapés A, … <b>SoccerNet 2023 challenges results</b>. Sports Engineering, 2024.
+        <span class="pubtag journal">JOURNAL</span> Cioppa A, Giancola S, Somers V, …, Clapés A, … <b>SoccerNet 2023 challenges results</b>. Sports Engineering, 2024.
         <span class="tag">JIF 1.4 (JCR).</span>
         <a href="https://link.springer.com/article/10.1007/s12283-024-00466-4">Springer</a>
       </li>
@@ -103,19 +121,19 @@
     <h3>2023</h3>
     <ul>
       <li>
-        Zhou B, Chen Z, Clapés A, Wan J, Liang Y, Escalera S, Lei Z, Zhang D.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Zhou B, Chen Z, Clapés A, Wan J, Liang Y, Escalera S, Lei Z, Zhang D.
         <b>Gloss-free sign language translation: Improving from visual-language pretraining (GFSLT-VLP)</b>.
         ICCV 2023.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://ieeexplore.ieee.org/document/10377463">IEEE</a>
       </li>
       <li>
-        Xarles A, Escalera S, Moeslund TB, Clapés A. <b>Astra: An action spotting transformer for soccer videos</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Xarles A, Escalera S, Moeslund TB, Clapés A. <b>Astra: An action spotting transformer for soccer videos</b>.
         MMSports 2023.
         <a href="https://dl.acm.org/doi/10.1145/3606038.3616153">ACM</a>
       </li>
       <li>
-        Selva J, Johansen AS, Escalera S, Nasrollahi K, Moeslund TB, Clapés A.
+        <span class="pubtag journal">JOURNAL</span> Selva J, Johansen AS, Escalera S, Nasrollahi K, Moeslund TB, Clapés A.
         <b>Video Transformers: A Survey</b>. IEEE TPAMI, 2023.
         <span class="tag">JIF 20.8 (JCR), Q1; position 2/197 (CS AI).</span>
         <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10041724">IEEE</a>
@@ -125,7 +143,7 @@
     <h3>2022</h3>
     <ul>
       <li>
-        Tarling P, Cantor M, Clapés A, Escalera S.
+        <span class="pubtag journal">JOURNAL</span> Tarling P, Cantor M, Clapés A, Escalera S.
         <b>Deep learning with self-supervision and uncertainty regularization to count fish in underwater images</b>.
         PLoS ONE, 2022.
         <span class="tag">JIF 3.7 (JCR), Q2.</span>
@@ -136,13 +154,13 @@
     <h3>2021</h3>
     <ul>
       <li>
-        Clapés A, Curto D, Selva J, …, Escalera S. <b>Dyadformer: A Multi-modal Transformer for Long-Range Modeling of Dyadic Interactions</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Clapés A, Curto D, Selva J, …, Escalera S. <b>Dyadformer: A Multi-modal Transformer for Long-Range Modeling of Dyadic Interactions</b>.
         ICCV Workshops 2021.
         <span class="tag">GGS Class 1 (A++).</span>
         <a href="https://ieeexplore.ieee.org/document/9607463">IEEE</a>
       </li>
       <li>
-        Palmero C, Selva J, Smeureanu S, …, Escalera S.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Palmero C, Selva J, Smeureanu S, …, Escalera S.
         <b>Context-Aware Personality Inference in Dyadic Scenarios: Introducing the UDIVA Dataset</b>.
         WACV Workshops 2021.
         <span class="tag">GGS Class 2.</span>
@@ -153,46 +171,46 @@
     <h3>Earlier (selected)</h3>
     <ul>
       <li>
-        Jacques-Junior JCS, Morral C, Escalera S, Clapés A. <b>ChaLearn LAP 2020 Challenge on Identity-preserved Human Detection: Dataset and Results</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Jacques-Junior JCS, Morral C, Escalera S, Clapés A. <b>ChaLearn LAP 2020 Challenge on Identity-preserved Human Detection: Dataset and Results</b>.
         FG 2020.
         <span class="tag">GGS Class 2.</span>
         <a href="https://ieeexplore.ieee.org/document/9320283">IEEE</a>
       </li>
       <li>
-        Ofodile I, Helmi A, Clapés A, …, Anbarjafari G. <b>Action Recognition Using Single-Pixel Time-of-Flight Detection</b>.
+        <span class="pubtag journal">JOURNAL</span> Ofodile I, Helmi A, Clapés A, …, Anbarjafari G. <b>Action Recognition Using Single-Pixel Time-of-Flight Detection</b>.
         Entropy, 2019.
         <span class="tag">JIF 2.494 (JCR), Q2.</span>
         <a href="https://www.mdpi.com/1099-4300/21/4/414">MDPI</a>
       </li>
       <li>
-        Clapés A, Pardo À, Pujol-Vila O, Escalera S.
+        <span class="pubtag journal">JOURNAL</span> Clapés A, Pardo À, Pujol-Vila O, Escalera S.
         <b>Action detection fusing multiple Kinects and a WIMU: an application to in-home assistive technology for the elderly</b>.
         Machine Vision and Applications, 2018.
         <span class="tag">JIF 1.788 (JCR), Q2.</span>
         <a href="https://link.springer.com/article/10.1007/s00138-018-0931-1">Springer</a>
       </li>
       <li>
-        Palmero C, Clapés A, Bahnsen C, Mogelmose A, Moeslund TB.
+        <span class="pubtag journal">JOURNAL</span> Palmero C, Clapés A, Bahnsen C, Mogelmose A, Moeslund TB.
         <b>Multi-modal RGB-Depth-Thermal Human Body Segmentation</b>.
         IJCV, 2016.
         <span class="tag">JIF 8.222 (JCR), Q1.</span>
         <a href="https://link.springer.com/article/10.1007/s11263-016-0901-x">Springer</a>
       </li>
       <li>
-        Cepero Á, Clapés A, Escalera S. <b>Automatic non-verbal communication skills analysis: A quantitative evaluation</b>.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Cepero Á, Clapés A, Escalera S. <b>Automatic non-verbal communication skills analysis: A quantitative evaluation</b>.
         AI Communications, 2015.
         <span class="tag">JIF 0.364 (JCR), Q4.</span>
         <a href="https://journals-sagepub-com.sire.ub.edu/doi/10.3233/AIC-140617">Link</a>
       </li>
       <li>
-        Reyes M, Clapés A, Ramírez J, Revilla JR, Escalera S.
+        <span class="pubtag conf">CONF. PROCEEDINGS</span> Reyes M, Clapés A, Ramírez J, Revilla JR, Escalera S.
         <b>Automatic digital biometry analysis based on depth maps</b>.
         Computers in Industry, 2013.
         <span class="tag">JIF 1.457 (JCR), Q3.</span>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0166361513000924">ScienceDirect</a>
       </li>
       <li>
-        Clapés A, Reyes M, Escalera S.
+        <span class="pubtag journal">JOURNAL</span> Clapés A, Reyes M, Escalera S.
         <b>Multi-modal user identification and object recognition surveillance system</b>.
         Pattern Recognition Letters, 2013.
         <span class="tag">JIF 1.062 (JCR), Q3.</span>
@@ -213,17 +231,17 @@
       <li>
         <b>Diversibus Viis Plurima Solvo (DVPS)</b> — Horizon Europe (HORIZON-CL4-2024-HUMAN-03),
         Grant: <b>101213369</b>, 01/07/2025–30/06/2029.
-        <span class="tag">Role: project member (group of 8, UB).</span>
+        <span class="tag">Role: project member (UB partnership).</span>
       </li>
       <li>
         <b>HappyMums</b> — Horizon Europe (HORIZON-HLTH-2021-STAYHLTH-01),
         Grant: <b>101057390</b>, 01/11/2022–31/10/2026.
-        <span class="tag">Role: project member (UB group).</span>
+        <span class="tag">Role: project member (UB partnership).</span>
       </li>
       <li>
         <b>Youth-GEMs</b> — Horizon Europe (HORIZON-HLTH-2021-STAYHLTH-01),
         Grant: <b>101070421</b>, 01/06/2022–31/05/2027.
-        <span class="tag">Role: project member (UB group).</span>
+        <span class="tag">Role: project member (UB partnership).</span>
       </li>
     </ul>
 
@@ -232,36 +250,50 @@
       <li>
         <b>Hacia una IA segura y confiable</b> — Ministerio de Ciencia e Innovación,
         Ref: <b>PID2022-136436NB-I00</b>, 01/09/2023–31/08/2026.
+        <span class="tag">Role: project member.</span>
       </li>
       <li>
         <b>Noves dianes terapèutiques en la depressió: el paper de la percepció situacional</b> — Fundació La Marató de TV3,
         Ref: <b>433/U/2022</b>, 15/03/2023–14/03/2026.
+        <span class="tag">Role: project member.</span>
       </li>
     </ul>
 
     <h3>Transference / Industry Collaboration Projects</h3>
     <ul>
+        <li>
+        <b>Multi-Modal Knowledge Distillation for Improved Visual Understanding</b>
+        (Ref: , 02/12/2024–01/06/2026.
+        <span class="tag">Funding: €150,000.</span>
+        <span class="tag">Role: project member.</span>
+        <!-- Company/partner names can be added if you want them public. -->
+      </li>
       <li>
         <b>A Virtual Clothing try on System based on 3D Body and Garment reconstruction and animation</b>
         (Ref: 2024 PROD 00013), 02/12/2024–01/06/2026.
         <span class="tag">Funding: €150,000.</span>
+        <span class="tag">Role: project member.</span>
         <!-- Company/partner names can be added if you want them public. -->
       </li>
       <li>
         <b>23395 NEFA YouAddict EIT Digital Project</b>, 01/01/2024–30/06/2024.
         <span class="tag">Funding: €115,000.</span>
+        <span class="tag">Role: project member.</span>
       </li>
       <li>
         <b>Research services on Fashion Recommendation and Retrieval</b> (YouAddict Srl), 06/09/2024–05/03/2025.
         <span class="tag">Funding: €40,000.</span>
+        <span class="tag">Role: project member.</span>
       </li>
       <li>
         <b>Consultancy on Milestone AI research strategy</b> (Milestone Systems S/A), 08/05/2023–07/12/2023.
         <span class="tag">Funding: €7,317.</span>
+        <span class="tag">Role: project member.</span>
       </li>
       <li>
         <b>Anàlisi automàtica de marcadors a fisioteràpia</b> (Instituto de Fisioterapia Global Mézières, S.L.), 08/05/2013–07/12/2013.
         <span class="tag">Funding: €9,000.</span>
+        <span class="tag">Role: project member.</span>
       </li>
     </ul>
 
@@ -273,8 +305,16 @@
   <section id="phd">
     <h2>Directed PhD Thesis Supervision</h2>
     <ul>
-      <li><b>Completed:</b> 1 PhD thesis directed. <span class="tag">(Details omitted here; add title/student/date if you want them public.)</span></li>
-      <li><b>Ongoing:</b> 2 PhD theses in progress. <span class="tag">(Details omitted here; add as desired.)</span></li>
+      <li>
+        <b>Completed:</b>
+        Javier Selva (University of Barcelona).
+      </li>
+      <li>
+        <b>Ongoing:</b>
+        Artur Xarles (University of Barcelona);
+        David Pujol-Perich (University of Barcelona);
+        Michal Choinski (industrial PhD with restb.ai).
+      </li>
     </ul>
     <p class="small">
       <!-- Source: narrative mentions “Director d’1 tesi doctoral (+2 en curs)”. -->
@@ -293,10 +333,10 @@
         Courses taught include: Programming I, Programming II, Data Structures, Software Design, Integrated Software Project.
       </li>
       <li>
-        <b>Master teaching:</b> Erasmus Mundus / interuniversity Master in Computer Vision (Video Analysis; English; UB/UPC shared).
+        <b>Master teaching:</b> Video Analysis at Interuniversity Master in Computer Vision (UAB, UPC, UPF, UB, and UOC) in 2023/24 and 2024/25.
       </li>
       <li>
-        <b>Supervision:</b> 12 BSc theses (TFG), 4 MSc theses (TFM), 7 internships (as reported).
+        <b>Supervision:</b> 12 BSc theses (TFG) and 4 MSc theses (TFM).
       </li>
       <li>
         <b>Teaching innovation:</b> “Xatbot educativa gamificada…” (RIMDA, UB), Ref: 2023PMD-UB/031 (01/09/2023–30/07/2024).
