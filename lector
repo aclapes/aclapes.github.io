@@ -34,7 +34,7 @@
 <body>
   <header>
     <div class="header-top">
-      <img class="photo" src="photo.jpg" alt="Albert Clapés" />
+      <img class="photo" src="photo.jpg" alt="Albert Clapés" width="160" height="160" />
       <div>
         <h1>Albert Clapés, PhD</h1>
         <div class="meta">
